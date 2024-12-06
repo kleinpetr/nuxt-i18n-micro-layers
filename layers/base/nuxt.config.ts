@@ -16,4 +16,7 @@ export default defineNuxtConfig({
     autoDetectLanguage: false,
     disablePageLocales: true,
   },
+  nitro: {
+    preset: 'vercel'
+  }
 })
