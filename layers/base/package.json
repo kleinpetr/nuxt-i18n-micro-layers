@@ -1,0 +1,17 @@
+{
+  "name": "base-layer",
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "nuxt:upgrade": "pnpm dlx nuxi upgrade --force",
+    "nuxt:cleanup": "pnpm dlx nuxi cleanup"
+  },
+  "devDependencies": {
+    "nuxt": "catalog:",
+    "nuxt-i18n-micro": "^1.38.4"
+  }
+}

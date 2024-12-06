@@ -1,0 +1,6 @@
+packages:
+  - layers/base/
+  - apps/**/
+
+catalog:
+  nuxt: "^3.12.2"
